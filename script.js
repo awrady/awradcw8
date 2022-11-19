@@ -26,7 +26,7 @@ function search() {
   let randomIndex = Math.floor(math.random () * grades.length);
   
   // طبّق الخطوة 9 أسفل هذا الكومنت
-random_grade_div.innerHTML = `<div>${grades[randomIndex]}</div>`;
+random_grade_div.innerHTML =  random_grade_div.innerHTML=`<div>${grades[randomIndex]}</div>`;
 }
 
 
